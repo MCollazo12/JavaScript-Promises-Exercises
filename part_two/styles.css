@@ -1,0 +1,30 @@
+* {
+  background-color: green;
+}
+
+button {
+  padding: 15px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+  border-radius: 8px;
+  border: none;
+  display: none;
+  margin: 2% auto;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(95, 95, 95);
+  }
+}
+
+#cards {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20%;
+}
+
+img {
+  position: absolute;
+}
